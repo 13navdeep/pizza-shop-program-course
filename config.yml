@@ -1,0 +1,18 @@
+title: pizza shop program
+description: >-
+  i will be making a pizza shop program in python which takes user input to
+  calculate the order total.
+template:
+  repo: pizza-shop-program-template
+  name: pizza-shop-program
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
